@@ -45,6 +45,8 @@ public class ServerRunner : MonoBehaviour, INetworkRunnerCallbacks
                 Debug.LogWarning("Force Mapping...");
                 runner.SetPlayerObject(player, obj);
             }
+
+
         }
     }
 
